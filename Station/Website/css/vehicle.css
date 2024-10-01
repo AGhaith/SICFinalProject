@@ -1,0 +1,24 @@
+#move a {
+    display: inline-block;
+    width: 80px;
+    height: 55px;
+    padding: 14px;
+    font-size: 25px;
+    text-align: center;
+    box-shadow: var(--button-shadow);
+    border-radius: 10px;
+    color: var(--main-color);
+    margin: 5px;
+}
+
+#move a:first-of-type {
+    margin-left: 99px;
+}
+
+#move a:active, #move a.held {
+    background-color: var(--transparent-main);
+}
+
+#move .controls {
+    width: max-content;
+}

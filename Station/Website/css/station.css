@@ -1,0 +1,27 @@
+.alarm {
+    height: 32px;
+    width: 32px;
+    box-shadow: var(--button-shadow);
+    border-radius: 10px;
+}
+
+.earthquake > div, .fire > div {
+    height: 130px;
+}
+
+#door a {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    padding: 22px;
+    font-size: 22px;
+    text-align: center;
+    box-shadow: var(--button-shadow);
+    border-radius: 10px;
+    color: var(--gray);
+    margin: 5px;
+}
+
+#door a:active {
+    background-color: rgb(227 227 227);
+}
